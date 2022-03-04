@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Build the docker image.
 
 SCRIPT_DIR="$(dirname "$(readlink -f ${BASH_SOURCE[0]})")"

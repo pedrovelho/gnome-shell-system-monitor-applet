@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 package_name=system-monitor
 #extension_uuid="$package_name@paradoxxx.zero.gmail.com"

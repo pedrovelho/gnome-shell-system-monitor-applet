@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Runs the docker container.
 
 SCRIPT_DIR="$(dirname "$(readlink -f ${BASH_SOURCE[0]})")"

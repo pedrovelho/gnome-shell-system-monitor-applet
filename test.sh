@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -e
 ./docker/build-docker.sh
 ./docker/run_and_kill.py || true

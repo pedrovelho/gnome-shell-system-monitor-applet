@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Runs Docker GUI tests.
 # Note, you don't have to run the GUI tests in Docker.
 # You can run the GUI tests locally by running testing/test_gui.py locally.

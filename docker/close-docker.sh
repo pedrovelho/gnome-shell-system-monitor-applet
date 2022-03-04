@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Kills any running Docker container.
 containers=`docker ps | grep "gnome-shell-system-monitor-applet" | awk '{ print $1 }'`
 if [ ! -z "$containers" ]

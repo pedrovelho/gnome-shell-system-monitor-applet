@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Install eslint with:
 #   sudo apt-get install npm && sudo npm install -g eslint
 set -e

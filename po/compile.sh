@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 DEST=$1
 
 for p in */ 
