@@ -122,7 +122,8 @@ PHONY += zip-file zip-file.clean
 ZIPFILE=$(UUID)$(VSTRING).zip
 
 zip-file: build.clean build
-	$(Q)cd _build ; zip $(V) -qr $(ZIPFILE) .
+	$(Q)cd _build ; zip -qr $(ZIPFILE) .
+	mkdir -p dist
 	$(Q)mv _build/$(ZIPFILE) ./dist/$(ZIPFILE)
 	$(call msg,$@,OK)
 
